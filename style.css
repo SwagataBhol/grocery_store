@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+
+}
+.show{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    background-color:gray;
+}
+.common{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+}
