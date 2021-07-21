@@ -64,7 +64,6 @@ edit.addEventListener("click",(e)=>{
         inner.childNodes[1].contentEditable=false
         inner.childNodes[2].contentEditable=false
         inner.childNodes[3].contentEditable=false
-        inner.childNodes[4].textContent=inner.childNodes[2].textContent*inner.childNodes[3].textContent
         tt.textContent=parseInt(tt.textContent)+parseInt((inner.childNodes[2].textContent*inner.childNodes[3].textContent)-temp)
         e.target.textContent='edit'
     }
